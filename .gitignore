@@ -1,0 +1,132 @@
+# Binaries
+bin/
+obj/
+# Loại bỏ các thư mục bin/ và obj/ để không upload các file build.
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+#Loại bỏ file liên quan đến cấu hình cá nhân của người dùng (*.user, .vs/).
+
+# Logs
+*.log
+*.tlog
+#Bỏ qua các file log (*.log) để tránh lưu trữ thông tin nhạy cảm hoặc lỗi phát sinh.
+
+
+# Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.sln.ide
+*.sln.docstates
+
+# Rider specific files
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.pdb
+*.mdb
+*.ilk
+*.idb
+
+# Build results
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of the new .NET Core era
+packages/
+# Uncomment if you have dependencies stored in NuGet package folders
+# !packages/keep/
+#Loại trừ thư mục packages/ vì các gói NuGet có thể được tải lại khi chạy dotnet restore.
+
+# Include build output directories from all SDKs
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+.scaffolding/
+
+# Configuration files
+appsettings.*.json
+secrets.json
+
+# Environment variables
+.env
+.env.*
+
+# Tooling specific
+*.pidb
+*.uiproj
+*.exportedProj
+*.csproj.user
+*.version
+*.ide
+
+# Resharper specific
+_ReSharper.Caches/
+
+# JetBrains Rider
+.idea/
+.idea/**
+
+# Uncomment if needed for AppConfig debug session
+# AppConfig.json
+
+# Rider specific
+.idea/
+
+# Exclude all test results from build automation and testing
+TestResults/
+
+# Uncomment if you have code coverage tools
+*.coverage
+*.coveragexml
+*.coverlet
+
+# npm packages
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SQLite database files
+*.sqlite
+*.db
+*.sqlite3
+
+# Entity Framework Core Migrations history
+*.db-shm
+*.db-wal
+
+# Images built by docker
+*.tar
+
+# Publish artifacts
+.publish/
+
+# Static web assets
+wwwroot/lib/
+
+# Rider, Resharper, or VS Code specific
+.idea/
